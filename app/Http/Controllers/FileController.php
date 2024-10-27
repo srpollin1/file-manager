@@ -30,6 +30,6 @@ class FileController extends Controller
         $file->route = $route;
         $file->save();
 
-        return redirect()->route('files.index')->with('success', 'Archivo subido correctamente');
+        return redirect()->route('files.index')->with('success', 'File uploaded successfully¡');
     }
 }
