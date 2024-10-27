@@ -11,6 +11,13 @@
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                     {{ __("You're logged in!") }}
                 </div>
+                <div class="p-6 text-gray-900 dark:text-gray-100">
+                    <h3 class="text-lg font-semibold">
+                        <i class="fas fa-file-alt mr-2"></i> <!-- Ícono de archivo -->
+                        Total Files: 5
+                    </h3>
+                </div>
+
             </div>
         </div>
     </div>
